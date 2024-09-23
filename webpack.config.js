@@ -6,7 +6,7 @@ module.exports = (_, argv) => ({
 
 
   output: {
-    publicPath: "http://https://microfrontend-react-remote.onrender.com/",
+    publicPath: "auto",
   },
 
   resolve: {
