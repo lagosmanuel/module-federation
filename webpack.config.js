@@ -43,11 +43,11 @@ module.exports = (_, argv) => ({
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "remote_a",
+      name: "remote_b",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./MiComponenteA": "./src/MiCompA.js",
+        "./MiComponenteB": "./src/MiCompB.js",
       },
       shared: {
         ...deps,
